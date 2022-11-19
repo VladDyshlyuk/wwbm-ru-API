@@ -1,7 +1,7 @@
 {
   "name": "wwbmruapi",
   "version": "1.0.0",
-  "description": "",
+  "description": "A simple API to retrieve questions from russian version of 'Who wants to become a millionaire' show",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
