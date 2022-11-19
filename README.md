@@ -25,12 +25,12 @@ Returns an array with `{number}` of `{difficulty}` questions e.g. `GET /question
 	  }
     ]
 ## Response fields
-`qType `- question difficulty
-`varA `- Possible answer A
-`varB` - Possible answer B
-`varC` - Possible answer C
-`varD` - Possible answer D
-`correct` - Letter of correct answer
+ - `qType `- question difficulty
+ - `varA `- Possible answer A
+ - `varB` - Possible answer B
+ - `varC` - Possible answer C
+ - `varD` - Possible answer D
+ - `correct` - Letter of correct answer
 ## Contributing
 If you want to add some questions, just add them in `questionsEasy.js` ,  `questionsMiddle.js` ,  `questionsDifficult.js`   file and do a pull request !
 ## MIT License
