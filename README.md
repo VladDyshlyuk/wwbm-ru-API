@@ -21,7 +21,7 @@ Returns an array with `{number}` of `{difficulty}` questions e.g. `GET /question
 		 "varB": "венский вальс",
 		 "varC": "венский шницель",
 		 "varD": "венский бал",
-		 "correct": "A"}
+		 "correct": "A"
      }
     ]
 ## Response fields
