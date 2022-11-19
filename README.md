@@ -6,13 +6,13 @@ A simple API to retrieve questions of russian version of "Who Wants to Become A 
 ### `GET /questions/{number}/{difficulty}`
 `number` **(default : 1)** - number of questions to be returned. **(max: 5)**
 `difficulty` **(default : 1)** 
+
+Returns an array with `{number}` of `{difficulty}` questions e.g. `GET /questions/1/3`.
 | Difficulty | Desctiption |
 |--|--|
 |1| To get jokingly easy question |
 |2| To get question of middle difficulty |
 |3| To get difficult question |
-Returns an array with `{number}` of `{difficulty}` questions e.g. `GET /questions/1/3`.
-
     [
        {
 		    "qType": 3,
