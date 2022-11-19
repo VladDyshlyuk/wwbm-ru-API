@@ -14,15 +14,15 @@ Returns an array with `{number}` of `{difficulty}` questions e.g. `GET /question
 |2| To get question of middle difficulty |
 |3| To get difficult question |
     [
-       {
-	 "qType": 3,
-	 "question": "Что появилось благодаря Михаэлю Тонету?",
-	 "varA": "венский стул",
-	 "varB": "венский вальс",
-	 "varC": "венский шницель",
-	 "varD": "венский бал",
-	 "correct": "A"
-	}
+     {
+		 "qType": 3,
+		 "question": "Что появилось благодаря Михаэлю Тонету?",
+		 "varA": "венский стул",
+		 "varB": "венский вальс",
+		 "varC": "венский шницель",
+		 "varD": "венский бал",
+		 "correct": "A"}
+     }
     ]
 ## Response fields
  - `qType `- question difficulty
