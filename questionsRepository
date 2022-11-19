@@ -1,0 +1,23 @@
+var maxQuestions = 5;
+
+module.exports = {
+    getRandom: function getRandom(numberOfQuestions, difficulty = 1) {
+        var questions = difficulty == 1 ? require('./questionsEasy') : difficulty == 2 ? require('./questionsMiddle')
+            : require('./questionsDifficult');
+
+        var limit = numberOfQuestions > maxQuestions ? maxQuestions : numberOfQuestions;
+
+        var out = new Array(limit);
+        var question;
+
+        for (var i = 0; i < limit; i++) {
+            do {
+                question = questions[Math.floor(Math.random() * questions.length)];
+
+            } while (out.indexOf(question) > -1);
+            out[i] = question;
+        }
+
+        return out;
+    }
+};
