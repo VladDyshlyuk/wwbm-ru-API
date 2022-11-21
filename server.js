@@ -5,7 +5,7 @@ var questionsRepository = require('./questionsRepository');
 
 app.listen(
     PORT,
-    () => console.log(`it's alive on ${PORT} port`)
+    () => console.log(`it's alive on ${PORT}`)
 )
 
 app.all('*', function (req, res, next) {
