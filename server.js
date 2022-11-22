@@ -1,12 +1,10 @@
-const app = require('express')();
+const app = require('express');
+const cors = require('cors');
 const PORT = 8080;
 var questionsRepository = require('./questionsRepository');
 
 
-app.all('*', function (req, res, next) {
-    res.set('Access-Control-Allow-Origin', '*');
-    next();
-});
+app.options('*', cors());
 
 app.listen(
     PORT,
