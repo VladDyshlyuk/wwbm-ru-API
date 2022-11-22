@@ -1,7 +1,7 @@
 # Who Wants to Be A Millionaire (RU) API
-A simple API to retrieve questions of russian version of "Who Wants to Be A Millionaire" ("Кто хочет стать миллионером?") show.
+A simple API to retrieve questions of russian version of "Who Wants to Be A Millionaire" show.
 ## Production host
-http://wwbm-ru-api.xyz
+http://api.wwbm-ru-api.xyz
 ## API
 ### `GET /questions/{number}/{difficulty}`
 `number` **(default : 1)** - number of questions to be returned. **(max: 5)**
