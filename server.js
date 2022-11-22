@@ -1,4 +1,4 @@
-const app = require('express');
+const app = require('express')();
 const cors = require('cors');
 const PORT = 8080;
 var questionsRepository = require('./questionsRepository');
