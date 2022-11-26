@@ -11,6 +11,6 @@ app.listen(
     () => console.log(`it's alive on ${PORT}`)
 );
 
-app.get('/questions/:dif?/:num?', function (req, res) {
+app.get('/questions/:num?/:dif?', function (req, res) {
     res.send(questionsRepository.getRandom(req.params.num || 1, req.params.dif || 1));
 });
